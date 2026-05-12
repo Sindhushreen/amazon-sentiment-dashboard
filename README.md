@@ -1,13 +1,13 @@
 # Customer Review Insights Dashboard
 
-This project analyzes customer reviews using NLP and machine learning to generate actionable insights.
+An NLP and machine learning project that analyzes customer reviews to extract sentiment trends and business insights through an interactive dashboard.
 
 ## Features
-- Sentiment classification (positive/negative)
-- Sentiment distribution visualization
-- Top negative keyword extraction
-- Sample negative reviews analysis
-- Interactive dashboard using Streamlit
+- Sentiment classification using Machine Learning
+- Customer review analytics
+- Negative keyword extraction
+- Interactive Streamlit dashboard
+- Data visualization and reporting
 
 ## Tech Stack
 - Python
@@ -16,11 +16,28 @@ This project analyzes customer reviews using NLP and machine learning to generat
 - Streamlit
 - Matplotlib
 
-## How to Run
+## Project Workflow
+
+1. Data Cleaning and Preprocessing
+2. Sentiment Classification
+3. Insight Extraction
+4. Dashboard Visualization
+
+## Dashboard Preview
+
+![Dashboard](dashboard-preview.png)
+
+## Run Locally
 
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
+```
 
-## Dashboard Preview
-![Dashboard](Screenshot.png)
+## Future Enhancements
+- LLM-powered review summarization
+- Real-time sentiment monitoring
+- Cloud deployment
+
+## Author
+Sindhushree N
